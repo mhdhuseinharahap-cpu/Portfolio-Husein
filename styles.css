@@ -222,19 +222,8 @@ footer { background: #060f1a; color: rgba(255,255,255,0.6); padding: 3rem 2rem; 
   .footer-top { grid-template-columns: 1fr; }
 }
 
-/* ===== LATAR BELAKANG ===== */
-.background-section { background: rgba(255,255,255,0.92); }
-.background-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 2.5rem; align-items: start; }
-.background-text p { color: var(--text); font-size: 15px; line-height: 1.85; margin-bottom: 1.2rem; }
-.background-text p:last-child { margin-bottom: 0; }
 .background-quote { background: rgba(26,58,92,0.06); border-left: 4px solid var(--accent); border-radius: 14px; padding: 1rem 1.2rem; margin-top: 1rem; }
 .background-quote p { margin: 0; color: var(--text); font-size: 14px; line-height: 1.8; }
 .background-quote p + p { margin-top: 0.75rem; font-weight: 600; }
-.background-image { display: grid; align-items: end; }
-.background-image img { width: 100%; border-radius: 24px; object-fit: cover; height: 100%; min-height: 320px; box-shadow: 0 30px 60px rgba(0,0,0,0.12); border: 1px solid var(--border); }
-.image-caption { margin-top: 0.8rem; color: var(--gray); font-size: 13px; text-align: center; }
-
-@media (max-width: 900px) {
-  .background-grid { grid-template-columns: 1fr; }
-  .background-image img { min-height: 240px; }
-}
+.detail-grid--full { grid-template-columns: 1fr; }
+.detail-item--full { grid-column: 1 / -1; }
