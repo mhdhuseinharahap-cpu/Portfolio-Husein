@@ -131,10 +131,6 @@ section { padding: 5rem 2rem; }
 .detail-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .detail-item label { font-size: 11px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; display: block; margin-bottom: 4px; }
 .detail-item p { font-size: 14px; color: var(--text); font-weight: 500; }
-.detail-note { background: rgba(26,58,92,0.05); border: 1px solid rgba(26,58,92,0.1); border-radius: 16px; padding: 1rem 1.2rem; margin-top: 1.2rem; }
-.detail-note p { margin: 0 0 0.75rem; color: var(--text); line-height: 1.8; font-size: 14px; }
-.detail-note p:last-child { margin-bottom: 0; color: var(--gray); font-size: 13px; }
-.detail-address { font-weight: 600; }
 
 .competency-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
 .comp-item { display: flex; align-items: center; gap: 10px; background: var(--white); border-radius: 10px; padding: 10px 14px; border: 1px solid var(--border); }
